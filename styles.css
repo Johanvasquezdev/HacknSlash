@@ -208,7 +208,8 @@ main {
 .protagonist-card {
   display: grid;
   min-height: 25rem;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto auto auto;
+  align-content: start;
   gap: 1rem;
   padding: 1rem;
   border: 1px solid var(--line);
