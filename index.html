@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hack n' Slash | Protagonistas de accion</title>
+    <meta
+      name="description"
+      content="Una pagina estatica sobre protagonistas memorables de videojuegos de accion."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Hack n' Slash inicio">
+        <span class="brand-mark">H</span>
+        <span>Hack n' Slash</span>
+      </a>
+      <nav class="main-nav" aria-label="Navegacion principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#ranking">Ranking</a>
+        <a href="#galeria">Galeria</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-reveal" id="inicio">
+        <div class="hero-copy">
+          <h1>Protagonistas que definieron la accion</h1>
+          <p>
+            Un homenaje visual a figuras que hicieron que correr, esquivar,
+            disparar y blandir espadas se sintiera legendario.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#ranking">Ver ranking</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Collage original de heroes de accion">
+          <img src="assets/hero-protagonistas.png" alt="" />
+        </div>
+      </section>
+
+      <section class="ranking section-reveal" id="ranking">
+        <div class="section-heading">
+          <h2>Ranking editorial</h2>
+          <p>
+            Seis nombres enormes, ordenados por impacto, presencia y energia
+            jugable. Cambia las imagenes cuando quieras por tus capturas o arte.
+          </p>
+        </div>
+
+        <div class="protagonist-grid">
+          <article class="protagonist-card is-featured">
+            <div class="rank-number">01</div>
+            <img
+              class="image-slot"
+              src="assets/characters/doom-slayer.png"
+              alt="Arte original inspirado en Doom Slayer"
+            />
+            <div>
+              <h3>Doom Slayer</h3>
+              <p>Ritmo brutal, lectura clara del combate y una silueta imposible de ignorar.</p>
+            </div>
+          </article>
+          <article class="protagonist-card">
+            <div class="rank-number">02</div>
+            <img
+              class="image-slot"
+              src="assets/characters/lara-croft.png"
+              alt="Arte original inspirado en Lara Croft"
+              loading="lazy"
+            />
+            <div>
+              <h3>Lara Croft</h3>
+              <p>Aventura fisica, precision y curiosidad convertidas en identidad.</p>
+            </div>
+          </article>
+          <article class="protagonist-card">
+            <div class="rank-number">03</div>
+            <img
+              class="image-slot"
+              src="assets/characters/dante.png"
+              alt="Arte original inspirado en Dante"
+              loading="lazy"
+            />
+            <div>
+              <h3>Dante</h3>
+              <p>Estilo, combos y confianza teatral en cada movimiento.</p>
+            </div>
+          </article>
+          <article class="protagonist-card">
+            <div class="rank-number">04</div>
+            <img
+              class="image-slot"
+              src="assets/characters/kratos.png"
+              alt="Arte original inspirado en Kratos"
+              loading="lazy"
+            />
+            <div>
+              <h3>Kratos</h3>
+              <p>Peso, violencia coreografiada y una presencia que llena la pantalla.</p>
+            </div>
+          </article>
+          <article class="protagonist-card">
+            <div class="rank-number">05</div>
+            <img
+              class="image-slot"
+              src="assets/characters/samus-aran-user.jpg"
+              alt="Samus Aran con armadura naranja disparando en una cueva"
+              loading="lazy"
+            />
+            <div>
+              <h3>Samus Aran</h3>
+              <p>Exploracion, aislamiento y armadura iconica con energia futurista.</p>
+            </div>
+          </article>
+          <article class="protagonist-card">
+            <div class="rank-number">06</div>
+            <img
+              class="image-slot"
+              src="assets/characters/bayonetta.png"
+              alt="Arte original inspirado en Bayonetta"
+              loading="lazy"
+            />
+            <div>
+              <h3>Bayonetta</h3>
+              <p>Elegancia extrema, control aereo y una firma visual inconfundible.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery section-reveal" id="galeria">
+        <div class="gallery-copy">
+          <h2>Galeria destacada</h2>
+          <p>
+            Tres escenas de alto contraste para reforzar el tono de combate,
+            aventura y estilo que mueve el ranking.
+          </p>
+        </div>
+        <div class="media-strip" aria-label="Galeria de protagonistas">
+          <figure>
+            <img
+              class="media-frame"
+              src="assets/characters/doom-slayer.png"
+              alt="Escena original de guerrero blindado"
+              loading="lazy"
+            />
+            <figcaption>Portada del ranking</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="media-frame"
+              src="assets/characters/dante.png"
+              alt="Escena original de espadachin urbano"
+              loading="lazy"
+            />
+            <figcaption>Momento de combate</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="media-frame"
+              src="assets/characters/bayonetta.png"
+              alt="Escena original de heroina magica"
+              loading="lazy"
+            />
+            <figcaption>Pose de protagonista</figcaption>
+          </figure>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <span>Hack n' Slash</span>
+      <span>Ranking editorial de protagonistas de accion.</span>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
